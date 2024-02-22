@@ -64,10 +64,10 @@ $(function () {
       logo = $(".navbar .logo> img");
     if (bodyScroll > 100) {
       navbar.addClass("nav-scroll");
-      logo.attr("src", "img/logo/logo-nbg.png");
+      logo.attr("src", "img/logo/logo-demo.jpg");
     } else {
       navbar.removeClass("nav-scroll");
-      logo.attr("src", "img/logo/logo-nbg.png");
+      logo.attr("src", "img/logo/logo-demo.jpg");
     }
   });
   // close navbar-collapse when a  clicked
@@ -578,3 +578,12 @@ $(function () {
     $(this).addClass("active").siblings().removeClass("active");
   });
 });
+
+// custome whatsapp btn
+// if(document.querySelector('#wt-btn')){
+//   const wtBtn = document .querySelector('#wt-btn')
+//   wtBtn.addEventListener('click',()=>{
+
+//   })
+
+// }
