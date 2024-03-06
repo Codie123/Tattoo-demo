@@ -703,8 +703,9 @@ blockquote cite:before {
     background: #fff;
     border: 1px solid #fff;
 }
-.owl-carousel .owl-nav button.owl-next, 
-.owl-carousel .owl-nav button.owl-prev, 
+
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
 .owl-carousel button.owl-dot {
   outline: none;
 }
@@ -1019,11 +1020,11 @@ blockquote cite:before {
         padding: 26px 0 26px 15px;
     }
     .nav-scroll .logo-wrapper {
-        padding: 27px 15px;
+        padding: 0px 15px;
         background-color: transparent;
     }
     .nav-scroll .logo-img {
-        width: 110px;
+        width: 55px;
     }
     .navbar .logo {
         text-align: left;
@@ -1032,7 +1033,7 @@ blockquote cite:before {
     .nav-scroll .logo {}
     .logo-img {
         margin-bottom: 0px;
-        width: 120px;
+        /* width: 120px; */
         padding: 0;
     }
     .navbar button {
@@ -3994,7 +3995,7 @@ select {
     max-width: 100%;
     height: 70px;
     padding: 0 30px;
-    border: 1px solid #999
+    border: 1px solid #999;
     color: #999;
     -webkit-appearance: none;
     -moz-appearance: none;
