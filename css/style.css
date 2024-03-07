@@ -2952,6 +2952,9 @@ textarea:focus,
     border-radius: 0;
     filter: grayscale(1);
 }
+.non-gray{
+    filter: grayscale(0)!important;
+}
 .gallery-box .gallery-detail {
     opacity: 0;
     color: #FFF;
